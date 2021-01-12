@@ -14,3 +14,21 @@ p=&c;
 printf("%p",p); /*　ポインタpのアドレスを表示*/
 
 printf("%p",*p); /*ポインタpの値を表示
+
+/////////////
+#include<stdio.h>
+int main(void)
+{
+	int a=611,*ptr;
+	
+	ptr=&a;
+	printf("変数Aのアドレス=%p\n",&a);
+	
+	printf("変数Aの値=%d\n",a);
+	
+	printf("ポインタptrの値=%p\n",*&ptr);
+	
+	printf("ポインタptrのさす値=%d\n",*ptr);
+	
+	return 0;
+}
