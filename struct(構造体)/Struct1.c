@@ -2,6 +2,10 @@
 
 //構造体の定義
 struct first {//struct 構造体名
+	
+	//char は、配列として宣言する
+	//普通に宣言すると、4文字分までしか使えない
+	char name[30];//データ型　メンバ名
 	char name[30];//データ型　メンバ名
 	int price;
 };
