@@ -6,6 +6,6 @@ int main(void)
 	mydt=1234;
 	
 	pt=&mydt;
-	printf("’lmydt=%d\n",mydt);
-	printf("’l *pt=%d\n",*pt);
+	printf("mydt=%d\n",mydt);
+	printf("pt=%d\n",*pt);
 }
